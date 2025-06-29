@@ -39,34 +39,19 @@ public class dz5 {
             System.out.println(op-l);
 
         }
+
         //5
-        int[]procioros ={0,1,2,3,4,7,4,5,4,3};
-        var gh =0;
-        for (int i =0; i<procioros.length;i++){
-            gh = procioros[i];
-            if (gh==procioros[i+=1]){
-                System.out.println();
+        int[] numbers = {0,1,3,4,7,4,4,3};
+
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = 0; j < numbers.length; j++) {
+                if (j != i) {
+                    if (numbers[i] == numbers[j]) {
+                        System.out.println("Совпадение с цифрой " + numbers[i] + " по индексу " + j);
+                    }
+                }
             }
-            for (gh)
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
