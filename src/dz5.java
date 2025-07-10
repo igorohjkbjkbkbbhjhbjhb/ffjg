@@ -19,10 +19,15 @@ public class dz5 {
 
         }
         //4
-        int[]y ={1,2,3,4,5,5,6,7,8,8,9,9,8,76,5,4,};
+              int[]y ={1,2,3,4,5,5,6,7,8,8,9,9,8,76,5,4,};
         var u = 0;
         for (int i = 0;i<y.length;i++){
-            u=i;
+            if (y[i] >= u){
+                u = y[i];
+                
+            }
+
+
         }
         System.out.println(u);
         //3
