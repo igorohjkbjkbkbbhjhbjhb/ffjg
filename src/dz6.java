@@ -1,15 +1,12 @@
 public class dz6 {
     public static void main(String[] args) {
-        int[] y ={1,2,3,4,5,6,7,8,9,0};
-        for (int a: y){
+        int[] numbers = {0, 1, 3, 4, 7, 4, 4, 3};
+        for (int a : numbers) {
             System.out.println(a);
         }
-        for (int i = 0; i< y.length;i++){
-            System.out.println(y[i] * 2);
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = numbers[i] * 2;
+            System.out.println(numbers[i]);
         }
-
-
-
-
     }
 }
